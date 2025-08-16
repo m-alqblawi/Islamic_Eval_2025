@@ -45,18 +45,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Features
-
-- Text cleaning and normalization for Arabic text
-- Intelligent merging of consecutive Quranic verses
-- LLM-powered verification of text matches
-- Progress tracking and result caching
-- Professional error handling and logging
-
 ## Input Data
 
-The system expects a JSON file named `dev_top20_matches.pkl` containing the queries and candidate matches to process.
+The system expects a PKL file named `dev_top20_matches.pkl` containing the queries and candidate matches to process.
 
 ## Output
 
-Results are saved in compressed joblib format as `final.jbl`.
+Results are saved in compressed joblib format as `final.jbl` in the result folder.
