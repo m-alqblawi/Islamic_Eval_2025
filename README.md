@@ -51,4 +51,4 @@ The system expects a PKL file named `dev_top20_matches.pkl` containing the queri
 
 ## Output
 
-Results are saved in compressed joblib format as `final.jbl` in the result folder.
+Results are saved in compressed joblib format as `final.jbl` in the results folder.
