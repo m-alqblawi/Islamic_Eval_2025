@@ -55,7 +55,7 @@ python main.py
 
 ## Input Data
 
-The system expects a JSON file named `submission_top20_matches_no_diacritics.json` containing the queries and candidate matches to process.
+The system expects a JSON file named `dev_top20_matches.pkl` containing the queries and candidate matches to process.
 
 ## Output
 
