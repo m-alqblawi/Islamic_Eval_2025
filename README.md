@@ -29,7 +29,7 @@ islamic/
 
 1. **Install Ollama** (if not already installed):
    - Download from [https://ollama.ai](https://ollama.ai)
-   - Pull the required model: `ollama pull gemma2:9b`
+   - Pull the required model: `ollama pull MODEL_NAME`
 
 2. **Install Python dependencies**:
 ```bash
