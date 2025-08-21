@@ -60,7 +60,7 @@ class Config:
         current_provider = provider or cls.MODEL_PROVIDER
         model_folder = f"{current_provider}_{model_name}"
 
-        diacritic_suffix = "with_diacritic" if cls.REMOVE_DIACRITICS else "without_diacritic"
+        diacritic_suffix = "without_diacritic" if cls.REMOVE_DIACRITICS else "with_diacritic"
         folder_name = f"{model_folder}_{diacritic_suffix}"
 
         results_path = os.path.join("results", folder_name)
