@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore everything in results directory
+1b/results/*
+
+# But keep final.jbl files
+!1b/results/*/final.jbl
+
